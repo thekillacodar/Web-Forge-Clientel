@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrinceWill</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+         .prince_workcontainer {
+            background-color: #fff; /* Add a background color to the container */
+        }
+        .prince_work {
+  position: relative;
+  font-size: 24px;
+  font-family: monospace; /* Use a monospace font for a typing effect */
+  overflow: hidden;
+}
+
+.prince_work::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #fff; /* Match the background color of the container */
+  animation: typing 3s steps(40) forwards;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+   <div class="prince_workcontainer">
+        <div class="prince_work">
+            These Are PrinceWill's Works
+        </div>
+   </div>
+</body>
+</html>
