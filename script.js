@@ -3,8 +3,8 @@
         var span = document.getElementsByClassName("close")[0];
         var correctPin = {
     "Prince will": {"pin": "41957", "link": "princewill.html"},
-    "hello world": {"pin": "12345", "link": "https://www.example.com"},
-    "another name": {"pin": "67890", "link": "https://www.anotherlink.com"}
+    "hello world": {"pin": "12345", "link": ""},
+    "another name": {"pin": "67890", "link": ""}
 };
 
         function openModal(name) {
@@ -42,9 +42,9 @@
 
 
 // var correctPin = {
-//     "Prince will": {"pin": "41957", "link": "https://www.google.com"},
-//     "hello world": {"pin": "12345", "link": "https://www.example.com"},
-//     "another name": {"pin": "67890", "link": "https://www.anotherlink.com"}
+//     "Prince will": {"pin": "41957", "link": ""},
+//     "hello world": {"pin": "12345", "link": ""},
+//     "another name": {"pin": "67890", "link": ""}
 // };
 
 
